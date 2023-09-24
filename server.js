@@ -14,7 +14,6 @@ app.set('view engine','ejs')
 app.set('layout','layouts/layout')
 app.set('views', __dirname+'/views')
 
-
 app.use(methodOverride('_method'))
 app.use(expressLayouts)
 app.use(express.static('public'))
